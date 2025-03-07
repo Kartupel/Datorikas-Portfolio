@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Book Antiqua", sans-serif}
+.w3-border{color: #bed7ff !important;}
 .w3-bar-block .w3-bar-item {padding:20px}
 body{background-color#EAF2FF;}
 .w3-top{background-color:#bed7ff;}
@@ -108,5 +109,17 @@ function w3_close() {
 }
 </script>
 
+  <div class="w3-container w3-padding-32" id="summa">
+    <h3 class="w3-border-bottom w3-border-blue w3-padding-16">Divu skaitļu summa</h3>
+    <p>Uzrakstiet divus skaitļus</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="1.skaitlis" required name="1. skaitlis">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="2. skaitlis" required name="2.skaitlis">
+      <button class="w3-button w3-black w3-section" type=Submit">
+        <i class="fa fa-paper-plane"></i> Iesūtīt
+      </button>
+    </form>
+  </div>
+  
 </body>
 </html>
