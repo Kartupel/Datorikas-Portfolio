@@ -115,9 +115,10 @@ function w3_close() {
     <form action="/action_page.php" target="_blank">
       <input class="w3-input w3-border" type="text" placeholder="1.skaitlis" required name="1. skaitlis">
       <input class="w3-input w3-section w3-border" type="text" placeholder="2. skaitlis" required name="2.skaitlis">
-      <button class="w3-button w3-black w3-section" type=Submit">
-        <i class="fa fa-paper-plane"></i> Iesūtīt
+      <button class="w3-button w3-black w3-section" type=button">
+          <input value="Saskaitīt" name="Summa" onclick="rez.value= 1. skaitlis.value + 2.skaitlis.value">
       </button>
+      <input class="w3-input w3-section w3-border" name="rez">
     </form>
   </div>
   
