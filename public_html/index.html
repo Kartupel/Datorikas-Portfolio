@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Datorikas Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Book Antiqua", sans-serif}
+.w3-border{color: #bed7ff !important;}
+.w3-bar-block .w3-bar-item {padding:20px}
+body{background-color#EAF2FF;}
+.w3-top{background-color:#bed7ff;}
+.w3-bar-item:hover{background-color:#6ea5ff !important; color:white !important;}
+</style>
+</head>
+<body>
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px; background-color:#d0e2ff;" id="mySidebar">
+  
+  <a href="#gimp" onclick="w3_close()" class="w3-bar-item w3-button">Gimp</a>
+  <a href="#Logo" onclick="w3_close()" class="w3-bar-item w3-button">Logo</a>
+  <a href="#3D" onclick="w3_close()" class="w3-bar-item w3-button">3D puzles gabaliņs</a>
+  <a href="#Vid" onclick="w3_close()" class="w3-bar-item w3-button">Video</a>
+  <a href="#Gif" onclick="w3_close()" class="w3-bar-item w3-button">GIF</a>
+  <a href="#wr" onclick="w3_close()" class="w3-bar-item w3-button">Word</a>
+  <a href="#ex" onclick="w3_close()" class="w3-bar-item w3-button">Excel</a>
+  <a href="#ht" onclick="w3_close()" class="w3-bar-item w3-button">HTML</a>
+  <a style="padding: 40px">⠀</a>
+  <a href="javascript:void(0)" onclick="w3_close()"
+     class="w3-bar-item w3-button" style="position: fixed; bottom: 0; width:40%; min-width: 300px;">✖</a>
+  
+</nav>
+
+<div class="w3-top">
+  <div class="w3-:#D7E6FF w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">Ko šogad darīju Datorikā?</div>
+  </div>
+</div>
+  
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <div class="w3-row-padding w3-padding-16 w3-center" >
+    <div class="w3-half"  >
+      <img id="gimp"src="images/gimp.png" alt="Gimp" style="width:80%">
+      <h3>Gimp</h3>
+      <p>Pārveidojām bildes lietotnē Gimp</p>
+    </div>
+    <div class="w3-half">
+      <img id="Logo" src="images/Logo - Copy.png" alt="Logo" style="width:80%">
+      <h3>Logo</h3>
+      <p><p>Uzņēmuma logo veidošana lietotnē Inkscape</p>
+    </div>
+      
+    
+  </div>
+    
+  <div class="w3-row-padding w3-padding-16 w3-center" style="max-width:1200px;margin-top:100px">
+        <div class="w3-half">
+      <img id="3D" src="images/logogab.png" alt="3D puzles gabaliņš" style="width:80%">
+      <h3>3D puzle</h3>
+      <p>Izmantojām mājaslapu Tinkercad, lai izveidotu reklāmas suvenīru uzņēmumam</p>
+    </div>
+    <div class="w3-half">
+        <video id="Vid" style="width:80%" controls>  <source src="images/Video.mp4" type="video/mp4"> 
+        </video>
+      <h3>Video</h3>
+      <p>Domājām un veidojām video</p>
+    </div>
+  </div>
+  
+  <div class="w3-row-padding w3-padding-16 w3-center" style="max-width:1200px;margin-top:100px">
+        <div class="w3-half">
+      <img id="Gif" src="images/gif.gif" alt="Gifs" style="width:80%">
+      <h3> GIF </h3>
+      <p>Veidojām ļoti skaistu gifu lietotnē Gimp</p>
+    </div>
+    <div class="w3-half">
+      <img id="wr" src="images/Word.png" alt="Word" style="width:80%">
+      <h3>Word</h3>
+      <p>Mācījāmies jaunas lietas Word lietotnē</p>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16 w3-center">
+      
+    <div class="w3-half">
+      <img id="ex" src="images/Zals.png" alt="Excel" style="width:80%">
+      <h3>Excel</h3>
+      <p>Mācījāmies jaunas lietas Excel lietotnē</p>
+    </div>
+    
+    <div class="w3-half">
+      <img id="ht" src="images/Untitled.png" alt="Daļa no HTML" style="width:80%">
+      <h3>HTML</h3>
+      <p>Mācāmies veidot mājaslapas izmantojot HTML valodu</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+    <br>
+    <a href="otrais.html"> <img scr="images/Bulta.png" alt="bulta"></a>
+</body>
+</html>
