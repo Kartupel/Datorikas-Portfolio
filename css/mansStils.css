@@ -1,0 +1,32 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+ body {
+    background-image: url("../images/bcr.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 700px !important;
+    background-position: center;
+    
+}
+
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Book Antiqua", sans-serif}
+    .w3-border{color: #bed7ff !important;}
+    .w3-bar-block .w3-bar-item {padding:20px}
+    body{background-color:#EAF2FF;}
+    .w3-top{background-color:#bed7ff;}
+    .w3-bar-item:hover{background-color:#6ea5ff !important; color:white !important;}
+    
+body,h1,h2,h3,h4,h5,h6 {font-family: "Book Antiqua", sans-serif}
+.w3-border{color: #bed7ff !important;}
+.w3-bar-block .w3-bar-item {padding:20px}
+body{background-color:#EAF2FF;}
+.w3-top{background-color:#bed7ff;}
+.w3-bar-item:hover{background-color:#6ea5ff !important; color:white !important;}
+
+/* 
+    Created on : 2025. gada 5. apr., 18:03:29
+    Author     : madar
+*/
+
